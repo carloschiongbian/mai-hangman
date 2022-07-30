@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Uchen&display=swap");
+* {
+  font-family: 'Uchen', serif;
+}
+
+html {
+  background-color: #dbd5ce;
+}
+
+.container .welcome-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: justify;
+  margin-top: 30px;
+  margin-inline: 30%;
+}
+
+.container .welcome-header button {
+  width: 15%;
+  border: none;
+  border-radius: 5px;
+  background-color: purple;
+  color: white;
+  padding-block: 7px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-weight: 500;
+}
+
+.container .welcome-header button:hover {
+  background-color: white;
+  color: purple;
+}
+/*# sourceMappingURL=main.css.map */
