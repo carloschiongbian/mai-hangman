@@ -27,8 +27,9 @@ html {
   width: 15%;
   border: none;
   border-radius: 5px;
-  background-color: purple;
-  color: white;
+  border: 1px solid purple;
+  background-color: white;
+  color: purple;
   padding-block: 7px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -36,7 +37,7 @@ html {
 }
 
 .container .welcome-header button:hover {
-  background-color: white;
-  color: purple;
+  background-color: purple;
+  color: white;
 }
 /*# sourceMappingURL=main.css.map */
